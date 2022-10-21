@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.meditrashcorp.ui.HistoryController">
+   <children>
+      <ScrollPane layoutX="36.0" layoutY="28.0" prefHeight="624.0" prefWidth="952.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <TableView fx:id="table" prefHeight="624.0" prefWidth="946.0">
+                    <columns>
+                      <TableColumn fx:id="col_user" prefWidth="205.0" text="Jmeno" />
+                        <TableColumn fx:id="col_tr" minWidth="0.0" prefWidth="182.0" text="Nazev odpadu" />
+                        <TableColumn fx:id="col_cat" prefWidth="114.0" text="Kategorie" />
+                        <TableColumn fx:id="col_amount" prefWidth="100.0" text="Mnozstvi" />
+                        <TableColumn fx:id="col_osoba" prefWidth="137.0" text="ICO" />
+                        <TableColumn fx:id="col_zpusobNakl" prefWidth="113.0" text="Kod nakladani" />
+                        <TableColumn fx:id="datum" prefWidth="94.0" text="Datum" />
+                    </columns>
+                  </TableView>
+               </children>
+            </AnchorPane>
+        </content>
+      </ScrollPane>
+      <Button fx:id="del" layoutX="347.0" layoutY="661.0" mnemonicParsing="false" onAction="#delOnAction" prefHeight="25.0" prefWidth="331.0" text="Smazat" />
+   </children>
+</AnchorPane>

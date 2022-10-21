@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.meditrashcorp.ui.InsertController">
+   <children>
+      <TextField fx:id="odpadTF" layoutX="14.0" layoutY="66.0" prefHeight="25.0" prefWidth="762.0" promptText="Nazev odpadu" />
+      <TextField fx:id="osobaTF" layoutX="14.0" layoutY="146.0" prefHeight="25.0" prefWidth="762.0" promptText="Opravnena osoba" />
+      <TextField fx:id="zpnklTF" layoutX="14.0" layoutY="228.0" prefHeight="25.0" prefWidth="762.0" promptText="Zpusob nakladani" />
+      <Button fx:id="odpadSZ" layoutX="788.0" layoutY="66.0" mnemonicParsing="false" onAction="#odpadSZOnAction" text="Seznam" />
+      <Button fx:id="zpnklSZ" layoutX="788.0" layoutY="228.0" mnemonicParsing="false" onAction="#zpnklSZ" text="Seznam" />
+      <Button fx:id="osobaSZ" layoutX="788.0" layoutY="146.0" mnemonicParsing="false" onAction="#osobaSZOnAction" text="Seznam" />
+      <Button fx:id="ins" layoutX="395.0" layoutY="406.0" mnemonicParsing="false" onAction="#insertTrashBtnOnAction" text="Ulozit" />
+      <DatePicker fx:id="datum" layoutX="14.0" layoutY="301.0" />
+   </children>
+</AnchorPane>

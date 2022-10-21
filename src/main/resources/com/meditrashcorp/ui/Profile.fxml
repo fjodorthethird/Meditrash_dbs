@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.meditrashcorp.ui.ProfileController">
+   <children>
+      <Label layoutX="19.0" layoutY="113.0" text="Uzivatelske jmeno" />
+      <Label layoutX="19.0" layoutY="39.0" text="INFORMACE:">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="20.0" layoutY="165.0" text="Heslo" />
+      <Label fx:id="usernameL" layoutX="172.0" layoutY="113.0" text="name" />
+      <Label fx:id="pswdL" layoutX="173.0" layoutY="165.0" text="****" />
+      <Button fx:id="myTrashBtn" layoutX="27.0" layoutY="320.0" mnemonicParsing="false" onAction="#myTrashBtnOnAction" prefHeight="25.0" prefWidth="164.0" text="Ulozit EXCEL soubor" />
+      <Label fx:id="zarizeniL" layoutX="173.0" layoutY="216.0" text="zar" />
+      <Label layoutX="20.0" layoutY="216.0" text="Zarizeni" />
+      <Button fx:id="changePswdBtn" layoutX="548.0" layoutY="161.0" mnemonicParsing="false" onAction="#changePswdBtnOnAction" text="Upravit" />
+      <Button fx:id="changeZarBtn" layoutX="548.0" layoutY="212.0" mnemonicParsing="false" onAction="#changeZarBtnOnAction" text="Upravit" />
+      <ScrollPane fx:id="scrollContainer" layoutX="235.0" layoutY="258.0" prefHeight="200.0" prefWidth="424.0" visible="false">
+         <content>
+            <ListView fx:id="listOfTrash" prefHeight="200.0" prefWidth="410.0" />
+         </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>

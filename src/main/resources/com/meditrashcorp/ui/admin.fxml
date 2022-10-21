@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.meditrashcorp.ui.LoginController">
+   <children>
+      <TextField fx:id="userTF" layoutX="42.0" layoutY="135.0" prefHeight="25.0" prefWidth="204.0" />
+      <Label layoutX="42.0" layoutY="112.0" text="Login uzivatele" />
+      <Label layoutX="345.0" layoutY="111.0" text="ICO opravneny osoby" />
+      <TextField fx:id="icoTF" layoutX="345.0" layoutY="134.0" prefHeight="25.0" prefWidth="204.0" />
+      <Button fx:id="delIco" layoutX="345.0" layoutY="184.0" mnemonicParsing="false" onAction="#delICO" prefHeight="105.0" prefWidth="204.0" text="Smazat opravnenou osobu" />
+      <Button fx:id="delUser" layoutX="39.0" layoutY="184.0" mnemonicParsing="false" onAction="#delUSER" prefHeight="105.0" prefWidth="204.0" text="Smazat uzivatele" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.meditrashcorp.ui.LoginController">
+    <children>
+        <Button fx:id="loginBtn" layoutX="25.0" layoutY="306.0" mnemonicParsing="false" onAction="#loginBtnOnAction" prefHeight="25.0" prefWidth="250.0" text="Prihlasit" />
+        <TextField fx:id="usernameText" layoutX="25.0" layoutY="93.0" prefHeight="25.0" prefWidth="250.0" />
+        <Label layoutX="25.0" layoutY="69.0" text="Login uzivatele" />
+        <Button fx:id="regBtn" layoutX="25.0" layoutY="359.0" mnemonicParsing="false" onAction="#regBtnOnAction" prefHeight="25.0" prefWidth="250.0" text="Registrovat se" />
+        <Label layoutX="25.0" layoutY="143.0" text="Heslo" />
+        <PasswordField fx:id="pswdText" layoutX="25.0" layoutY="167.0" prefHeight="25.0" prefWidth="250.0" />
+    </children>
+</AnchorPane>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.meditrashcorp.ui.MainPageController">
+   <children>
+      <Button fx:id="historyBtn" layoutX="300.0" mnemonicParsing="false" onAction="#historyBtnOnAction" prefHeight="60.0" prefWidth="150.0" text="Historie odpadu" />
+      <Button fx:id="insertBtn" layoutX="150.0" mnemonicParsing="false" onAction="#insertBtnOnAction" prefHeight="60.0" prefWidth="150.0" text="Vlozit odpad" />
+      <Button fx:id="profileBtn" mnemonicParsing="false" onAction="#profileBtnOnAction" prefHeight="60.0" prefWidth="150.0" text="Profil" />
+      <BorderPane fx:id="mainContainer" layoutY="59.0" prefHeight="550.0" prefWidth="800.0" />
+      <Button fx:id="signOut" layoutX="896.0" mnemonicParsing="false" onAction="#signOutBtnOnAction" prefHeight="38.0" prefWidth="104.0" text="Sign out" />
+   </children>
+</AnchorPane>

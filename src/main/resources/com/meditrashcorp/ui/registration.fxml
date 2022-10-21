@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.meditrashcorp.ui.RegistrationController">
+  <content>
+    <AnchorPane prefWidth="250.0">
+         <children>
+            <AnchorPane prefHeight="1000.0" prefWidth="290.0">
+               <children>
+                  <Label layoutX="25.0" layoutY="49.0" text="Nazev zdravotni" />
+                  <TextField fx:id="fir_nazev" layoutX="23.0" layoutY="72.0" prefWidth="250.0" />
+                  <TextField fx:id="fir_ulice" layoutX="23.0" layoutY="127.0" prefWidth="250.0" />
+                  <Label layoutX="23.0" layoutY="103.0" text="Ulice" />
+                  <Label layoutX="24.0" layoutY="166.0" text="Mesto" />
+                  <TextField fx:id="fir_misto" layoutX="23.0" layoutY="189.0" prefWidth="250.0" />
+                  <TextField fx:id="fir_psc" layoutX="23.0" layoutY="253.0" prefWidth="250.0" />
+                  <Label layoutX="24.0" layoutY="229.0" text="PSC" />
+                  <Label layoutX="21.0" layoutY="287.0" text="ICO" />
+                  <TextField fx:id="fir_kod" layoutX="23.0" layoutY="310.0" prefWidth="250.0" />
+                  <TextField fx:id="fir_tel" layoutX="23.0" layoutY="372.0" prefWidth="250.0" />
+                  <Label layoutX="23.0" layoutY="349.0" text="Telefon" />
+                  <Label layoutX="23.0" layoutY="412.0" text="e-mail" />
+                  <TextField fx:id="fir_mail" layoutX="23.0" layoutY="440.0" prefWidth="250.0" />
+                  <TextField fx:id="fir_fax" layoutX="21.0" layoutY="504.0" prefWidth="250.0" />
+                  <Label layoutX="23.0" layoutY="476.0" text="FAX" />
+                  <Label layoutX="23.0" layoutY="546.0" text="Pravnicka osoba" />
+                  <TextField fx:id="fir_prav" layoutX="21.0" layoutY="574.0" prefHeight="25.0" prefWidth="250.0" />
+                  <TextField fx:id="fir_login" layoutX="21.0" layoutY="645.0" prefWidth="250.0" />
+                  <Label layoutX="23.0" layoutY="617.0" text="Login" />
+                  <Label layoutX="23.0" layoutY="683.0" text="Heslo" />
+                  <TextField fx:id="fir_heslo" layoutX="21.0" layoutY="714.0" prefWidth="250.0" />
+                  <Label layoutX="22.0" layoutY="764.0" text="Kod provozny" />
+                  <TextField fx:id="fir_provoz" layoutX="20.0" layoutY="792.0" prefWidth="250.0" />
+                  <Button fx:id="regBtn" layoutX="21.0" layoutY="924.0" mnemonicParsing="false" onAction="#registrationBtnOnAction" prefHeight="25.0" prefWidth="250.0" text="Registrovat se" />
+               </children>
+            </AnchorPane>
+         </children></AnchorPane>
+  </content>
+</ScrollPane>
